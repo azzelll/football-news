@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 from django.forms import ModelForm
 from main.models import News
 from django.utils.html import strip_tags
@@ -14,7 +14,7 @@ class NewsForm(ModelForm):
 
     def clean_content(self):
         content = self.cleaned_data["content"]
-=======
+
 from django.forms import ModelForm
 from main.models import News
 from django.utils.html import strip_tags
@@ -30,5 +30,5 @@ class NewsForm(ModelForm):
 
     def clean_content(self):
         content = self.cleaned_data["content"]
->>>>>>> 2eafefb (Test push)
+
         return strip_tags(content)

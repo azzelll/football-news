@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 """
 URL configuration for football_news project.
 
@@ -23,7 +23,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('main.urls'))
 ]
-=======
+
 """
 URL configuration for football_news project.
 
@@ -49,4 +49,4 @@ urlpatterns = [
     path('', include('main.urls')),
     path('auth/', include('authentication.urls')),
 ]
->>>>>>> 2eafefb (Test push)
+

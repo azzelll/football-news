@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 from django.test import TestCase, Client
 from .models import News
 from django.test import LiveServerTestCase
@@ -249,7 +249,7 @@ class FootballNewsFunctionalTest(LiveServerTestCase):
         # Test filter "My Articles"  
         my_button = self.browser.find_element(By.PARTIAL_LINK_TEXT, "My Articles")
         my_button.click()
-=======
+
 from django.test import TestCase, Client
 from .models import News
 from django.test import LiveServerTestCase
@@ -500,5 +500,5 @@ class FootballNewsFunctionalTest(LiveServerTestCase):
         # Test filter "My Articles"  
         my_button = self.browser.find_element(By.PARTIAL_LINK_TEXT, "My Articles")
         my_button.click()
->>>>>>> 2eafefb (Test push)
+
         self.assertIn("My Test News", self.browser.page_source)

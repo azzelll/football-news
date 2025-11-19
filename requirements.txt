@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 django
 gunicorn
 whitenoise
@@ -7,7 +7,7 @@ requests
 urllib3
 python-dotenv
 selenium
-=======
+
 django
 gunicorn
 whitenoise
@@ -16,4 +16,4 @@ requests
 urllib3
 python-dotenv
 django-cors-headers
->>>>>>> 2eafefb (Test push)
+

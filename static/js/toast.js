@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 function showToast(title, message, type = 'normal', duration = 3000) {
     const toastComponent = document.getElementById('toast-component');
     const toastTitle = document.getElementById('toast-title');
@@ -35,7 +35,7 @@ function showToast(title, message, type = 'normal', duration = 3000) {
         toastComponent.classList.remove('opacity-100', 'translate-y-0');
         toastComponent.classList.add('opacity-0', 'translate-y-64');
     }, duration);
-=======
+
 function showToast(title, message, type = 'normal', duration = 3000) {
     const toastComponent = document.getElementById('toast-component');
     const toastTitle = document.getElementById('toast-title');
@@ -72,5 +72,5 @@ function showToast(title, message, type = 'normal', duration = 3000) {
         toastComponent.classList.remove('opacity-100', 'translate-y-0');
         toastComponent.classList.add('opacity-0', 'translate-y-64');
     }, duration);
->>>>>>> 2eafefb (Test push)
+
 }

@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 """
 Django settings for football_news project.
 
@@ -153,7 +153,7 @@ else:
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-=======
+
 """
 Django settings for football_news project.
 
@@ -318,4 +318,4 @@ else:
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
->>>>>>> 2eafefb (Test push)
+
